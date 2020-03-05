@@ -1,0 +1,6 @@
+<!--@subject {{trans "Account Status"}}  @-->
+
+{{template config_path="design/email/header_template"}}
+	Hi {{var data.name|raw}}, <br>
+	Your account has been {{var data.status|raw}} by Admin.
+{{template config_path="design/email/footer_template"}}
